@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-dotnet restore && dotnet build **/project.json
+cd SachemCore && dotnet restore && dotnet build **/project.json
+cd ..\UnitTest && dotnet restore && dotnet build **/project.json
